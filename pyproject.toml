@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "master-node"
+version = "0.1.0"
+description = "Master node is a Task manager for several blockchains"
+authors = ["amartin <14140693+Alejandro-MartinG@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.13"
+telegram = "^0.0.1"
+paramiko = "^3.4.1"
+pytest = "^8.3.2"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.34"
+sqlalchemy-utils = "^0.41.2"
+bittensor = "^7.3.1"
+python-telegram-bot = "^21.5"
+apscheduler = "^3.10.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
